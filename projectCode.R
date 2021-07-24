@@ -61,6 +61,11 @@ tree = ctree( target~ Occupation, data = df)
 
 plot(tree)
 
+tree = ctree( target~ CapitalGain, data = df)
+
+plot(tree)
+
+
 
 
 
